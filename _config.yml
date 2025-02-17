@@ -7,13 +7,26 @@
 markdown:            kramdown
 highlighter:         rouge
 permalink:           /:title
-plugins:             [jekyll-paginate, jekyll-sitemap, jekyll-feed, jekyll-seo-tag]
+plugins:             [jekyll-paginate, jekyll-sitemap, jekyll-feed, jekyll-seo-tag,'jekyll/scholar']
 
 # Customise atom feed settings (this is where Jekyll-Feed gets configuration information)
-title:		           "Hemberg Lab website"
+title:		           "ALFA Group"
 #description:	       "Official website for the Hemberg lab"
-author:              "Martin Hemberg"
+author:              "Steven Jorgensen"
+
+include:
+  - _pages
 
 # RSS 2.0 can be used instead of Atom by uncommenting following two lines
 #feed:
 #  path: rss-feed.xml
+
+scholar:
+  style: apa # Change this to your preferred citation style
+  locale: en
+  sort_by: year
+  order: descending
+  group_by: year
+  group_order: descending
+  source: ./_bibliography # Path to your bibliography directory
+  bibliography: bibliography.bib # Name of your BibTeX file
