@@ -1,6 +1,13 @@
-<footer class="footer">
-  {% for item in site.data.settings.social %}
-    <a href="{{ item.link }}" class="menu-link" target="_blank"><i class="fa fa-{{ item.icon }}" aria-hidden="true"></i></a>
-  {% endfor %}
-  <div class="footer-description"><a href="{{ site.github.url }}/">{{ site.title }} | {{ site.description }} by {{ site.author }}</a></div>
-</footer>
+<div id="footer" class="panel">
+  <div class="panel-footer">
+	<div class="container-fluid">
+		<div style="text-align: center;">
+			<p>&copy 2025 ALFA Lab. Site made with <a href="https://jekyllrb.com">Jekyll</a>;
+		</div>
+
+	</div>
+  </div>
+</div>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<script src="{{ site.url }}{{ site.baseurl }}/js/bootstrap.min.js"></script>

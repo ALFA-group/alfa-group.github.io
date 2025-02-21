@@ -1,0 +1,30 @@
+- name: Una-May O'Reilly
+  photo: unamay.png
+  role: Founder, Principle Investigator
+  email: unamay@csail.mit.edu
+  info:
+    - MCS in Computer Science, Carleton University, 1990
+    - PhD in Computer Science, Carleton University, 1995
+    - OTHER TITLES AND AWARDS HERE
+
+- name: Erik Hemberg
+  photo: erikhemberg.jpg
+  role: Research Scientist
+  email: hembergerik@csail.mit.edu
+  info:
+    - M.Sc. in Industrial Engineering and Management, Chalmers University of Technology, 2003
+    - PhD in Computer Science, University College Dublin, 2010
+    - OTHER TITLES AND AWARDS HERE
+
+- name: Stephen Moskal
+  photo: stephenmoskal.jpg
+  role: Postdoctorial Associate
+  email: 
+  info:
+    - M.Sc. in Computer Engineering, Rochester Institute of Technology, 2016
+    - PhD in Engineering, Rochester Institute of Technology, 2021
+
+- name: Amanda Abrams
+  photo: amandaabrams.jpg
+  role: Administrative Assistant II
+  email: 

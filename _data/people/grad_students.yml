@@ -1,0 +1,44 @@
+- name: Steven Jorgensen
+  photo: stevenjorgensen.jpeg
+  role: PhD Candidate, started Sept 2023
+  email: stevenjson@mit.edu
+  info: 
+    - Evolutionary Computation
+    - Open-Ended Evolutions
+    - Cyber Security
+
+- name: Finn Westenfelder
+  photo: finnwestenfelder.jpg
+  role: M.Eng Student, started Aug 2023
+  email: 
+  info: 
+    - NL to Bash Translation via LLMs
+
+- name: Eric Liu
+  photo: 
+  role: M.Eng Student, started Sept 2024
+  email: 
+  info: 
+    - Cyber Agents
+
+- name: Joy Bhattacharya
+  photo: 
+  role: M.Eng Student, started Sept 2024
+  email: 
+  info: 
+    - Tax Avoidance
+
+- name: Ben Wettstein
+  photo: 
+  role: M.Eng Student, started Sept 2024
+  email: 
+  info: 
+    - Cyber Security Policy
+
+- name: Andrea Vignali
+  photo: 
+  role: Visiting PhD Student, University of Naples Federico II
+  email: 
+  info: 
+    - Cyber Exploit Chains with AI Planning
+

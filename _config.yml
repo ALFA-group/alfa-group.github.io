@@ -1,25 +1,32 @@
-# Site Build Settings
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely need to edit after that.
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'jekyll serve'. If you change this file, please restart the server process.
 
-# jekyll-paginate configuration
-#paginate:            5
-
-# Build settings
-markdown:            kramdown
-highlighter:         rouge
-permalink:           /:title
+# Site settings
+title: The ALFA Lab
+email: 
+description: > # this means to ignore newlines until "baseurl:"
+  Website of the ALFA Lab.
+baseurl: ""
+url: ""
 plugins:             [jekyll-paginate, jekyll-sitemap, jekyll-feed, jekyll-seo-tag,'jekyll/scholar']
 
-# Customise atom feed settings (this is where Jekyll-Feed gets configuration information)
-title:		           "ALFA Group"
-#description:	       "Official website for the Hemberg lab"
-author:              "Steven Jorgensen"
-
 include:
+  - .htaccess
   - _pages
 
-# RSS 2.0 can be used instead of Atom by uncommenting following two lines
-#feed:
-#  path: rss-feed.xml
+sass:
+  sass_dir: _sass
+
+# Conversion
+markdown: kramdown
+highlighter: rouge
+lsi: false
+excerpt_separator: "\n\n"
+incremental: false
 
 scholar:
   style: apa # Change this to your preferred citation style
@@ -28,5 +35,17 @@ scholar:
   order: descending
   group_by: year
   group_order: descending
-  source: ./_bibliography # Path to your bibliography directory
+  source: ./_data/publications # Path to your bibliography directory
   bibliography: bibliography.bib # Name of your BibTeX file
+
+# Markdown Processing
+kramdown:
+  input: GFM
+  hard_wrap: false
+  auto_ids: true
+  footnote_nr: 1
+  entity_output: as_char
+  toc_levels: 1..6
+  smart_quotes: lsquo,rsquo,ldquo,rdquo
+  enable_coderay: false
+  parse_block_html: true # default for kramdown is false. This will enable using Markdown links

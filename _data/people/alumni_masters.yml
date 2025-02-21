@@ -1,0 +1,339 @@
+- name: Varun Aggarwal
+  end_year: Before 2011
+  type: M.Eng
+
+- name: Lynne Salameh
+  end_year: Before 2011
+  type: M.Eng
+
+- name: Meng Mao
+  end_year: Before 2011
+  type: M.Eng
+
+- name: Eric Fellheimer
+  end_year: Before 2011
+  type: M.Eng
+
+- name: Kathy Chen
+  end_year: Before 2011
+  type: M.Eng
+
+- name: Michael Terry
+  end_year: Before 2011
+  type: M.Eng
+
+- name: Jonathan Marcus
+  end_year: Before 2011
+  type: M.Eng
+
+- name: Matt Farrell
+  end_year: Before 2011
+  type: M.Eng
+
+- name: Kevin Rice
+  end_year: Before 2011
+  type: M.Eng
+
+- name: Martin Hemberg
+  end_year: Before 2011
+  type: M.Eng
+
+- name: Eric O'Reilly
+  end_year: Before 2011
+  type: M.Eng
+
+- name: Cesario Julaton
+  end_year: Before 2011
+  type: M.Eng
+
+- name: Lawrence Chan
+  end_year: 2011
+  type: M.Eng
+
+- name: Maciej Pacula
+  end_year: 2011
+  type: M.Eng
+
+- name: Anthony Kim
+  end_year: 2011
+  type: M.Eng
+
+- name: Skye Wanderman-Miln
+  end_year: 2012
+  type: M.Eng
+
+- name: Daniele Ramazzotti
+  end_year: 2012
+  type: M.Eng
+
+- name: Constantin Berzan
+  end_year: 2012
+  type: M.Eng
+
+- name: Owen Derby
+  end_year: 2013
+  type: M.Eng
+
+- name: Tito Mbagwu
+  end_year: 2013
+  type: M.Eng
+
+- name: Chidube Ezeozue
+  end_year: 2013
+  type: SM
+
+- name: Elaine Fang Han
+  end_year: 2014
+  type: M.Eng
+
+- name: Colin Taylor
+  end_year: 2014
+  type: M.Eng
+
+- name: EJ Emeagwali
+  end_year: 2014
+  type: M.Eng
+
+- name: Vineet Gopal
+  end_year: 2014
+  type: M.Eng
+
+- name: Osama Badar
+  end_year: 2014
+  type: M.Eng
+
+- name: Brian Bell
+  end_year: 2014
+  type: M.Eng
+
+- name: Will Drevo
+  end_year: 2014
+  type: M.Eng
+
+- name: Bryan Collazo
+  end_year: 2015
+  type: M.Eng
+
+- name: Max Kanter
+  end_year: 2015
+  type: M.Eng
+
+- name: Michael Wu
+  end_year: 2015
+  type: M.Eng
+
+- name: Alex Wang
+  end_year: 2015
+  type: M.Eng
+
+- name: Minshu Zhan
+  end_year: 2015
+  type: M.Eng
+
+- name: Edwin Zhang
+  end_year: 2015
+  type: M.Eng
+
+- name: Sebastien Boyer
+  end_year: 2015
+  type: SM, TPP
+
+- name: Franck Dernoncourt
+  end_year: 2015
+  type: SM
+
+- name: Jacob Rosen
+  end_year: 2015
+  type: SM, TPP
+
+- name: John O'Sullivan
+  end_year: 2016
+  type: M.Eng
+
+- name: Benjamin Schreck
+  end_year: 2016
+  type: M.Eng
+
+- name: Yonlin "Jason" Wu
+  end_year: 2016
+  type: M.Eng
+
+- name: Neha Patki
+  end_year: 2016
+  type: M.Eng
+
+- name: Brian Sun
+  end_year: 2016
+  type: M.Eng
+
+- name: Fahad Alasoun
+  end_year: 2016
+  type: SM, CDO
+
+- name: Brian Bell
+  end_year: 2017
+  type: M.Eng
+
+- name: Steven Fine
+  end_year: 2017
+  type: M.Eng
+
+- name: Steven Rivera
+  end_year: 2017
+  type: M.Eng
+
+- name: Anthony Erb Lugo
+  end_year: 2017
+  type: M.Eng
+
+- name: Dennis Garcia
+  end_year: 2017
+  type: M.Eng
+
+- name: Austin Liew
+  end_year: 2017
+  type: M.Eng
+
+- name: Daniel Prado Sanchez
+  end_year: 2018
+  type: M.Eng
+
+- name: Marcos Pertierra
+  end_year: 2018
+  type: Unknown
+
+- name: Rahoul Khouri
+  end_year: 2018
+  type: M.Eng
+
+- name: Alex Huang
+  end_year: 2018
+  type: M.Eng
+
+- name: Jitesh Maiyuran
+  end_year: 2018
+  type: M.Eng
+
+- name: Alice Tiang Zhang
+  end_year: 2018
+  type: M.Eng
+
+- name: Jonathan Kelly
+  end_year: 2019
+  type: M.Eng
+
+- name: Ayesha Bajwa
+  end_year: 2019
+  type: M.Eng
+
+- name: Li Wang
+  end_year: 2019
+  type: M.Eng
+
+- name: Andrew Zhang
+  end_year: 2019
+  type: M.Eng
+
+- name: Linda Zhang
+  end_year: 2019
+  type: M.Eng
+
+- name: Carolyn Holz
+  end_year: 2019
+  type: M.Eng
+
+- name: Kifle Waldu
+  end_year: 2019
+  type: M.Eng
+
+- name: Saeyoung Rho
+  end_year: 2019
+  type: TPP
+
+- name: Michal Shlapentokh-Rothman
+  end_year: 2020
+  type: M.Eng
+
+- name: Jordan Wick
+  end_year: 2020
+  type: M.Eng
+
+- name: Srilaya Bhavaraju
+  end_year: 2020
+  type: M.Eng
+
+- name: Chetan Sharma
+  end_year: 2020
+  type: M.Eng
+
+- name: Sofiane Djeffal
+  end_year: 2020
+  type: SDM
+
+- name: Urmi Mustafi
+  end_year: 2020
+  type: M.Eng
+
+- name: Bryn Reinstadler
+  end_year: 2021
+  type: SM
+
+- name: Urmi Mustafi
+  end_year: 2021
+  type: M.Eng
+
+- name: Afra Ansaria
+  end_year: 2021
+  type: SDM
+
+- name: Sanja Simonovikj
+  end_year: 2021
+  type: M.Eng
+
+- name: Diana Flores
+  end_year: 2021
+  type: M.Eng
+
+- name: Ashwin Srinivasan
+  end_year: 2022
+  type: M.Eng
+
+- name: Helen Landwehr
+  end_year: 2022
+  type: TPP
+
+- name: Beong Jo Kong
+  end_year: 2022
+  type: SDM
+
+- name: Matthew Turner
+  end_year: 2022
+  type: M.Eng
+
+- name: Cyril Vallez
+  end_year: 2023
+  type: MSc
+
+- name: Katherine Wicks
+  end_year: 2023
+  type: M.Eng
+
+- name: Thomas Benchetrit
+  end_year: 2023
+  type: MSc
+
+- name: Iris Kremer
+  end_year: 2024
+  type: MSc
+
+- name: Ethan Garza
+  end_year: 2024
+  type: M.Eng
+
+- name: Sam Laney
+  end_year: 2024
+  type: M.Eng
+
+- name: Miguel Tulla
+  end_year: 2025
+  type: M.Eng

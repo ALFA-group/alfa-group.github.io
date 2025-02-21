@@ -1,0 +1,307 @@
+- name: Caitlin Mehl
+  end_year: Before 2011
+  type: UROP
+
+- name: Alex Teuffer
+  end_year: 2011
+  type: UROP
+
+- name: Minshu Zhan
+  end_year: 2011
+  type: UROP
+
+- name: Jennifer Jang
+  end_year: 2011
+  type: UROP
+
+- name: Owen Derby
+  end_year: 2011
+  type: UROP
+
+- name: Greg Durett
+  end_year: 2011
+  type: UROP
+
+- name: David Li
+  end_year: 2011
+  type: UROP
+
+- name: Manushaqe Muco
+  end_year: 2012
+  type: UROP
+
+- name: Dennis Wilson
+  end_year: 2012
+  type: UROP
+
+- name: Stephanie Bian
+  end_year: 2012
+  type: SuperUROP
+
+- name: EJ Emeagwali
+  end_year: 2012
+  type: SuperUROP
+
+- name: Seo Jin Kim
+  end_year: 2012
+  type: SuperUROP
+
+- name: David Xiao
+  end_year: 2013
+  type: UROP
+
+- name: Ulziibayar Otgonbaatar
+  end_year: 2013
+  type: SuperUROP
+
+- name: Sebastian Leon
+  end_year: 2013
+  type: SuperUROP
+
+- name: Austin Hess
+  end_year: 2015
+  type: SuperUROP
+
+- name: Srinidi Viswanathan
+  end_year: 2015
+  type: SuperUROP
+
+- name: Yuqing Zang
+  end_year: 2015
+  type: SuperUROP
+
+- name: Kevin Wen
+  end_year: 2015
+  type: SuperUROP
+
+- name: Anthony Liu
+  end_year: 2016
+  type: UROP
+
+- name: Alexandra Suorakov
+  end_year: 2016
+  type: UROP
+
+- name: Xueqi Fan
+  end_year: 2016
+  type: UROP
+
+- name: Justine Jang
+  end_year: 2016
+  type: UROP
+
+- name: Nathan Landman
+  end_year: 2016
+  type: SuperUROP
+
+- name: Zara Permual
+  end_year: 2016
+  type: SuperUROP
+
+- name: William Spitzer
+  end_year: 2016
+  type: SuperUROP
+
+- name: Fernando Torja
+  end_year: 2016
+  type: SuperUROP
+
+- name: Hannah Pang
+  end_year: 2016
+  type: SuperUROP
+
+- name: Nicole Schmidt
+  end_year: 2016
+  type: SuperUROP
+
+- name: Anying Li
+  end_year: 2016
+  type: SuperUROP
+
+- name: Emanuel Azuh
+  end_year: 2017
+  type: UROP
+
+- name: Emily Segler
+  end_year: 2017
+  type: UROP
+
+- name: Ashwath Thirumalai
+  end_year: 2017
+  type: UROP
+
+- name: Ashkat Bubna
+  end_year: 2017
+  type: UROP
+
+- name: Abigail Choe
+  end_year: 2017
+  type: SuperUROP
+
+- name: Hugo Zul
+  end_year: 2017
+  type: SuperUROP
+
+- name: Alyssa Weiss
+  end_year: 2018
+  type: UROP
+
+- name: Akshat Bubna
+  end_year: 2018
+  type: UROP
+
+- name: Jonathan Kelly
+  end_year: 2018
+  type: UROP
+
+- name: Emmanuel Azuh
+  end_year: 2018
+  type: UROP
+
+- name: Carina Quiroz
+  end_year: 2018
+  type: UROP
+
+- name: Srilaya Bhavaraju
+  end_year: 2018
+  type: SuperUROP
+
+- name: Liang Zhou
+  end_year: 2018
+  type: SuperUROP
+
+- name: Abigail Russel
+  end_year: 2018
+  type: SuperUROP
+
+- name: Michael Delaus
+  end_year: 2018
+  type: SuperUROP
+
+- name: Milka Piszcek
+  end_year: 2019
+  type: UROP
+
+- name: Jordan Wick
+  end_year: 2019
+  type: UROP
+
+- name: Michal Shlapentokh-Rothman
+  end_year: 2019
+  type: SuperUROP
+
+- name: Sanja Simonovikj
+  end_year: 2020
+  type: UROP
+
+- name: Ashwin Srinivasan
+  end_year: 2020
+  type: UROP
+
+- name: Shannon Hwang
+  end_year: 2020
+  type: UROP
+
+- name: Amanuael Gidey
+  end_year: 2020
+  type: SuperUROP
+
+- name: Kenneth Acquah
+  end_year: 2020
+  type: SuperUROP
+
+- name: Sule Kahraman
+  end_year: 2020
+  type: SuperUROP
+
+- name: Teodor Begu
+  end_year: 2020
+  type: SuperUROP
+
+- name: Subhash Nalluru
+  end_year: 2020
+  type: SuperUROP
+
+- name: Tamara Mitrovska
+  end_year: 2021
+  type: UROP
+
+- name: Krittamate "Boom" Tiankanon
+  end_year: 2021
+  type: UROP
+
+- name: Kate Xu
+  end_year: 2021
+  type: UROP
+
+- name: Rene Reyes
+  end_year: 2021
+  type: UROP
+
+- name: Ashwin Srinivasan
+  end_year: 2021
+  type: UROP
+
+- name: Renee Silva
+  end_year: 2021
+  type: UROP
+
+- name: Jenny Gau
+  end_year: 2021
+  type: UROP
+
+- name: Anna Wong
+  end_year: 2021
+  type: UROP
+
+- name: Evan Rubel
+  end_year: 2021
+  type: UROP
+
+- name: Ray Dedhia
+  end_year: 2021
+  type: UROP
+
+- name: Haimoshri Das
+  end_year: 2021
+  type: UROP
+
+- name: Xinhe Zhou
+  end_year: 2021
+  type: UROP
+
+- name: Ness Vera
+  end_year: 2021
+  type: UROP
+
+- name: Alexandra Dima
+  end_year: 2021
+  type: SuperUROP
+
+- name: Sabrina Tseng
+  end_year: 2021
+  type: SuperUROP
+
+- name: Tamara Mitrovska
+  end_year: 2021
+  type: SuperUROP
+
+- name: Joie Le
+  end_year: 2022
+  type: UROP
+
+- name: Tamara Mitrovska
+  end_year: 2022
+  type: UROP
+
+- name: Eileen Li
+  end_year: 2022
+  type: UROP
+
+- name: Muhua Xu
+  end_year: 2022
+  type: UROP
+
+- name: Mark Jabbour
+  end_year: 2022
+  type: UROP
