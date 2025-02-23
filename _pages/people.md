@@ -75,6 +75,26 @@ ALFA is dedicated to cultivating an inclusive culture that supports, promotes, a
 {% endfor %}
 </div>
 
+## Collaborators
+<div class="row">
+{% for member in site.data.people.collaborators %}
+<div class="col-sm-6 clearfix">
+  {% include staff_image.html photo=member.photo %}
+  <h4>{{ member.name }}</h4>
+  <i>{{ member.role }}</i><br>
+  <ul style="overflow: hidden">
+  {% for info in member.info %}
+    <li>{{ info }}</li>
+  {% endfor %}
+  </ul>
+</div>
+{% assign index = forloop.index | modulo: 2 %}
+{% if index == 0 and forloop.last == false %}
+  </div><div class="row">
+{% endif %}
+{% endfor %}
+</div>
+
 
 ## Alumni
 <div class="row">
