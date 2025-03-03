@@ -37,6 +37,7 @@ scholar:
   group_order: descending
   source: ./_data/publications # Path to your bibliography directory
   bibliography: bibliography.bib # Name of your BibTeX file
+  bibliography_template: bib
 
 # Markdown Processing
 kramdown:

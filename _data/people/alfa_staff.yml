@@ -1,28 +1,31 @@
 - name: Una-May O'Reilly
   photo: unamay.png
-  role: Founder, Principle Investigator
+  role: Founder, Principal Investigator
   email: unamay@csail.mit.edu
+  scholar_link: https://scholar.google.com/citations?hl=en&user=TgQM-B0AAAAJ
   info:
-    - MCS in Computer Science, Carleton University, 1990
-    - PhD in Computer Science, Carleton University, 1995
-    - OTHER TITLES AND AWARDS HERE
+    - Doctor of Laws (honoris causa), Dalhouse University, 2024
+    - PhD, Carleton University, 1995
+    - Significant Contributions Awards, ACM SIGEVO (2005) and EVO-STAR - SPECIES (2010)
 
 - name: Erik Hemberg
   photo: erikhemberg.jpg
   role: Research Scientist
   email: hembergerik@csail.mit.edu
+  scholar_link: https://scholar.google.com/citations?hl=en&user=0FM8tB4AAAAJ
   info:
-    - M.Sc. in Industrial Engineering and Management, Chalmers University of Technology, 2003
-    - PhD in Computer Science, University College Dublin, 2010
+    - M.Sc, Chalmers University of Technology, 2003
+    - PhD, University College Dublin, 2010
     - OTHER TITLES AND AWARDS HERE
 
 - name: Stephen Moskal
   photo: stephenmoskal.jpg
   role: Postdoctorial Associate
   email: 
+  scholar_link: https://scholar.google.com/citations?hl=en&user=LHfhlXwAAAAJ
   info:
-    - M.Sc. in Computer Engineering, Rochester Institute of Technology, 2016
-    - PhD in Engineering, Rochester Institute of Technology, 2021
+    - M.Sc, Rochester Institute of Technology, 2016
+    - PhD, Rochester Institute of Technology, 2021
 
 - name: Amanda Abrams
   photo: amandaabrams.jpg

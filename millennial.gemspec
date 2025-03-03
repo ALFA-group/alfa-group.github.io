@@ -1,9 +1,9 @@
 # frozen_string_literal: true
 
 Gem::Specification.new do |spec|
-  spec.name          = "Hemberglab"
+  spec.name          = "ALFALab"
   spec.version       = "2.0.0"
-  spec.authors       = ["Martin Hemberg"]
+  spec.authors       = ["Steven Jorgensen"]
 
   spec.summary       = "A modified version of the millenial theme"
   spec.license       = "MIT"

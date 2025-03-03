@@ -13,8 +13,12 @@ ALFA is dedicated to cultivating an inclusive culture that supports, promotes, a
 <div class="row">
 {% for member in site.data.people.alfa_staff %}
 <div class="col-sm-6 clearfix">
-  {% include staff_image.html photo=member.photo %}
+  {% include staff_image.html photo=member.photo role="alfa_staff"%}
+  {% if member.scholar_link %}
+  <h4>[{{ member.name }}]({{member.scholar_link}})</h4>
+  {% else %}
   <h4>{{ member.name }}</h4>
+  {% endif %}
   <i>{{ member.role }}</i>
   {% if member.email %}
   Email: [{{member.email}}](mailto:{{member.email}})
@@ -37,8 +41,12 @@ ALFA is dedicated to cultivating an inclusive culture that supports, promotes, a
 <div class="row">
 {% for member in site.data.people.grad_students %}
 <div class="col-sm-6 clearfix">
-  {% include staff_image.html photo=member.photo %}
+  {% include staff_image.html photo=member.photo role="grad_students"%}
+  {% if member.scholar_link %}
+  <h4>[{{ member.name }}]({{member.scholar_link}})</h4>
+  {% else %}
   <h4>{{ member.name }}</h4>
+  {% endif %}
   <i>{{ member.role }}</i><br>
   Research Area(s):
   <ul style="overflow: hidden">
@@ -59,7 +67,7 @@ ALFA is dedicated to cultivating an inclusive culture that supports, promotes, a
 <div class="row">
 {% for member in site.data.people.undergrads %}
 <div class="col-sm-6 clearfix">
-  {% include staff_image.html photo=member.photo %}
+  {% include staff_image.html photo=member.photo role="undergrads"%}
   <h4>{{ member.name }}</h4>
   <i>{{ member.role }}</i><br>
   <ul style="overflow: hidden">
@@ -75,13 +83,18 @@ ALFA is dedicated to cultivating an inclusive culture that supports, promotes, a
 {% endfor %}
 </div>
 
-## Collaborators
+## Active Collaborators
 <div class="row">
 {% for member in site.data.people.collaborators %}
 <div class="col-sm-6 clearfix">
-  {% include staff_image.html photo=member.photo %}
+  {% include staff_image.html photo=member.photo role="collaborators"%}
+  {% if member.scholar_link %}
+  <h4>[{{ member.name }}]({{member.scholar_link}})</h4>
+  {% else %}
   <h4>{{ member.name }}</h4>
+  {% endif %}
   <i>{{ member.role }}</i><br>
+  <i>{{ member.location }}</i><br>
   <ul style="overflow: hidden">
   {% for info in member.info %}
     <li>{{ info }}</li>
@@ -95,6 +108,20 @@ ALFA is dedicated to cultivating an inclusive culture that supports, promotes, a
 {% endfor %}
 </div>
 
+## Past Visitors and Collaborators
+
+{::nomarkdown}
+<div class="full_collapse">
+    <details>
+      <summary>Full List</summary>
+      <ul style="overflow: hidden">
+      {% for member in site.data.people.past_visit_colab reversed%}
+        {{ member.name }} <br>
+      {% endfor %}
+      </ul>
+    </details>
+</div>
+{:/nomarkdown}
 
 ## Alumni
 <div class="row">
