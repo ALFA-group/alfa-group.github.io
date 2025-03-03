@@ -1,0 +1,49 @@
+{% for member in include.staff_data %}
+<div class="col-sm-6 clearfix">
+{% if member.photo %}
+<img src="{{ site.url }}{{ site.baseurl }}/images/people/{{include.type}}/{{ member.photo }}" class="img-responsive" width="25%" style="float: left" />
+{% else %}
+<img src="{{ site.url }}{{ site.baseurl }}/images/people/placeholder.jpg" class="img-responsive" width="25%" style="float: left" />
+{% endif %}
+
+{% if member.scholar_link %}
+<a href="{{ member.scholar_link }}">
+  <img src="images/people/googlescholar.png" alt="Google Scholar" class="scholar-img" style="display: inline-block; vertical-align: middle;">
+</a>
+{% endif %}
+<h4 style="margin:0">
+    {% if member.personal_page %}
+    [{{ member.name }}]({{ member.personal_page }})
+    {% else %}
+    {{ member.name }}
+    {% endif %}
+</h4>
+
+<i style="margin:0">{{ member.role }}</i>
+
+{% if include.type == "collaborators" %}
+{{ member.location }}
+{% endif %}
+
+{% if member.email and include.type == "alfa_staff"%}
+Email: [{{member.email}}](mailto:{{member.email}})
+{% endif %}
+
+{% if include.type == "grad_students" %}
+Research Area(s):
+{% endif %}
+
+
+<ul style="overflow: hidden; padding-top: 0px;">
+{% for info in member.info %}
+<li>{{ info }}</li>
+{% endfor %}
+</ul>
+</div>
+
+{% assign index = forloop.index | modulo: 2 %}
+{% if index == 0 and forloop.last == false %}
+  </div><div class="row">
+{% endif %}
+{% endfor %}
+

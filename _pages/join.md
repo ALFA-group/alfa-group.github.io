@@ -27,27 +27,7 @@ permalink: /join
 
 </div>
 
-<!-- <div class="row">
-{% for member in site.data.people.alfa_staff %}
-{% if member.photo %}
-<div class="col">
-{% include staff_image.html photo=member.photo role="alfa_staff" %}
-</div>
-{% endif %}
-{% endfor %}
-
-{% for member in site.data.people.grad_students %}
-{% if member.photo %}
-<div class="col">
-{% include staff_image.html photo=member.photo role="grad_students" %}
-</div>
-{% endif %}
-{% endfor %}
-</div> -->
-
 ALFA respects and welcomes every applicant. We conduct ourselves as team members and representatives of ALFA with the same respect and welcoming attitude.
-
-<br>
 
 
 ### MIT Students

@@ -6,106 +6,26 @@ sitemap: false
 permalink: /people
 ---
 
-# Group Members
-ALFA is dedicated to cultivating an inclusive culture that supports, promotes, and empowers diverse voices in Computer Science & AI
-
 ## ALFA Staff
 <div class="row">
-{% for member in site.data.people.alfa_staff %}
-<div class="col-sm-6 clearfix">
-  {% include staff_image.html photo=member.photo role="alfa_staff"%}
-  {% if member.scholar_link %}
-  <h4>[{{ member.name }}]({{member.scholar_link}})</h4>
-  {% else %}
-  <h4>{{ member.name }}</h4>
-  {% endif %}
-  <i>{{ member.role }}</i>
-  {% if member.email %}
-  Email: [{{member.email}}](mailto:{{member.email}})
-  {% endif %}
-  <ul style="overflow: hidden">
-  {% for info in member.info %}
-    <li>{{ info }}</li>
-  {% endfor %}
-  </ul>
-</div>
-{% assign index = forloop.index | modulo: 2 %}
-{% if index == 0 and forloop.last == false %}
-  </div><div class="row">
-{% endif %}
-{% endfor %}
+{% include member_profile.html staff_data=site.data.people.alfa_staff type="alfa_staff"%}
 </div>
 
 
 ## Graduate Students
 <div class="row">
-{% for member in site.data.people.grad_students %}
-<div class="col-sm-6 clearfix">
-  {% include staff_image.html photo=member.photo role="grad_students"%}
-  {% if member.scholar_link %}
-  <h4>[{{ member.name }}]({{member.scholar_link}})</h4>
-  {% else %}
-  <h4>{{ member.name }}</h4>
-  {% endif %}
-  <i>{{ member.role }}</i><br>
-  Research Area(s):
-  <ul style="overflow: hidden">
-  {% for info in member.info %}
-    <li>{{ info }}</li>
-  {% endfor %}
-  </ul>
-</div>
-{% assign index = forloop.index | modulo: 2 %}
-{% if index == 0 and forloop.last == false %}
-  </div><div class="row">
-{% endif %}
-{% endfor %}
+{% include member_profile.html staff_data=site.data.people.grad_students type="grad_students"%}
 </div>
 
 
 ## Undergraduates
 <div class="row">
-{% for member in site.data.people.undergrads %}
-<div class="col-sm-6 clearfix">
-  {% include staff_image.html photo=member.photo role="undergrads"%}
-  <h4>{{ member.name }}</h4>
-  <i>{{ member.role }}</i><br>
-  <ul style="overflow: hidden">
-  {% for info in member.info %}
-    <li>{{ info }}</li>
-  {% endfor %}
-  </ul>
-</div>
-{% assign index = forloop.index | modulo: 2 %}
-{% if index == 0 and forloop.last == false %}
-  </div><div class="row">
-{% endif %}
-{% endfor %}
+{% include member_profile.html staff_data=site.data.people.undergrads type="undergrads"%}
 </div>
 
 ## Active Collaborators
 <div class="row">
-{% for member in site.data.people.collaborators %}
-<div class="col-sm-6 clearfix">
-  {% include staff_image.html photo=member.photo role="collaborators"%}
-  {% if member.scholar_link %}
-  <h4>[{{ member.name }}]({{member.scholar_link}})</h4>
-  {% else %}
-  <h4>{{ member.name }}</h4>
-  {% endif %}
-  <i>{{ member.role }}</i><br>
-  <i>{{ member.location }}</i><br>
-  <ul style="overflow: hidden">
-  {% for info in member.info %}
-    <li>{{ info }}</li>
-  {% endfor %}
-  </ul>
-</div>
-{% assign index = forloop.index | modulo: 2 %}
-{% if index == 0 and forloop.last == false %}
-  </div><div class="row">
-{% endif %}
-{% endfor %}
+{% include member_profile.html staff_data=site.data.people.collaborators type="collaborators"%}
 </div>
 
 ## Past Visitors and Collaborators

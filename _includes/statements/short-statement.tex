@@ -1,0 +1,85 @@
+%\documentclass[11pt]{article}
+\documentclass[12pt,bibliography=numbered]{article}
+\usepackage{pdfpages}
+\usepackage{wrapfig}
+\usepackage{longtable}
+\usepackage{xcolor}
+\usepackage{colortbl}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{paralist}
+\usepackage[top=0.5in, bottom=1.0in, left=0.75in, right=0.8in]{geometry}
+\usepackage{graphicx}
+\usepackage[sort&compress,numbers]{natbib}
+\usepackage{url}
+\usepackage{color}
+\usepackage{xspace}
+\usepackage{caption}
+\usepackage{subcaption}
+\usepackage{adjustbox}
+\usepackage{enumitem}
+\usepackage{comment}
+\usepackage{hyperref}[colorlinks=true,linkcolor=blue,citecolor=red]
+
+\usepackage{endnotes}
+\renewcommand{\footnote}{\endnote}
+
+\renewcommand{\enotesize}{\footnotesize}
+\renewcommand\enoteformat{%
+  \raggedright
+  \leftskip=1.0em
+  \makebox[0pt][r]{\theenmark. \rule{0pt}{\dimexpr\ht\strutbox}}%
+}
+%\usepackage[hang, flushmargin, ragged]{footmisc}
+
+\usepackage{fancyvrb}
+
+%\usepackage[utf8x]{inputenc} 
+%
+%\DeclareUnicodeCharacter
+
+\newcommand{\TODO}[1]{\textcolor{red}{\textbf{TODO} #1}}
+\newcommand{\CHECK}[1]{\textbf{\textcolor{red}{CHECK: #1}}}
+\newcommand{\DRAFT}[1]{\textbf{\textcolor{blue}{DRAFT:}}\textcolor{blue}{ #1}}
+\newcommand{\chatSMtools}{\textbf{LLM-APT-API}\xspace}
+\newcommand{\system}{\textbf{PbC}\xspace}
+\newcommand{\systemLong}{\textbf{Persona-based Conversations}}
+
+\renewcommand{\familydefault}{\sfdefault}
+
+\begin{document}
+%\title{Una-May O'Reilly\\Artificial Adversarial Intelligence}
+%\author{  }
+%
+%\date{}
+%
+%\maketitle
+
+%\section*{My Research}
+\label{Evolutionary inspiration and algorithms}
+\vspace{-0.5in}
+\noindent 
+Since the beginning of my interest in Artificial Intelligence, I have focused on learning and adaptation.
+% because they are arguably integral to intelligence. 
+My central inspiration is Nature's process of evolution because it generates compelling examples of intelligent organisms and behavior.  
+This is why I work with evolutionary algorithms.
+% and investigate their insights into generating intelligence and their application opportunities.  
+%An evolutionary algorithm adapts a population of solutions by means of computationally-modeled, performance-based selection, replication, and variation.  
+%The population supports multiple solution explorations, and algorithmic operations that combine parts of different solutions. 
+Neither evolution or evolutionary algorithms are efficient, but I am devoted to the open question of how to use the latter to computationally replicate intelligence.
+
+   
+Adversarial learning, i.e. behavioral adaptation under the pressure of adversarial competition,  is an under-explored facet of intelligence, despite being so common and important to understand.  For example, consider biological arms races of predators and prey,  viruses and their hosts, the never-ending challenges of cybersecurity, and even squirrels versus bird feeder owners!  For this, I have coined the moniker ``\textbf{Artificial Adversarial Intelligence}".  Adversarial Intelligence is the thinking underlying adversarial behavior. It recruits planning, learning, technical skills, expert knowledge and other faces of intelligence.   ALFA's goal became to computationally replicate Adversarial Intelligence  in pursuit of  Artificial Adversarial Intelligence.  
+
+Enroute to Artificial Adversarial Intelligence, we  develop data-driven, gradient-based Machine Learning approaches that leverage adversarial learning. ALFA's Lipizzaner framework applies spatially distributed co-evolution to provide resilient and robust Generative Adversarial Network training. ALFA's  cybersecurity projects address sponsors’ interests in anticipating possible moves and counter-moves to inform resilient defenses in cyber threat scenarios.  Cyber adversaries reason with expert and common knowledge. To support artificial adversarial reasoning, I support Erik Hemberg on an ALFA open software project named BRON. BRON  aggregates the text entries of open access databases which enumerate threats (their tactics and techniques and exploites), vulnerabilities (software weaknesses and exposures) and defenses. BRON supports reasoning about behavioral-level cyber threats and defenses in support of, e.g. cyber threat hunting. ALFA's results also endorse and encourage further translation of the evolutionary process to achieve intelligence different from that of adversaries, perhaps more positively, e.g. around cooperation.  
+
+Finally, veering away from evolutionary algorithms but still focusing on security, I also consider how intelligent adversaries can exploit code insecurities such as bugs or design weaknesses. Integral to this capability is how they understand code.  For more on this, check out publications I have co-authored with Shashank Srikant, a now-graduated, PhD student.
+
+\newpage
+
+
+%\bibliographystyle{plainnat}
+
+\bibliography{bibliography}
+
+\end{document}

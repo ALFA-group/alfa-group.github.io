@@ -193,6 +193,15 @@ firstp {
 	object-fit: cover;
   }
 
+.scholar-img {
+	border-radius: 0 !important;
+	box-shadow: none !important;
+	width: 7%;
+	float: right;
+	margin: 0px 10px 0px 0px;
+
+}
+
 .inline-underline {
 	display: inline-block;
 	border-bottom: 1px solid #000; /* Adjust color and thickness as needed */
