@@ -38,7 +38,7 @@ We encourage both UROP and M.Eng students to take initiative in exploring our re
 We invite MIT undergraduates to explore research opportunities in our lab through the Undergraduate Research Opportunities Program (UROP). To get started, browse our current research to identify areas that align with your interests. We often seek UROP students during the fall semester, so be sure to check the [UROP webpage](https://urop.mit.edu/) for specific details and deadlines.
 
 
-#### M.Eng Students
+<h4><span class="inline-underline">M.Eng Students</span></h4>
 If you're an MIT M.Eng student interested in joining our lab, we invite you to reach out at [alfa-apply@csail.mit.edu](mailto:alfa-apply@csail.mit.edu) to explore how your thesis project might fit with our current research. Please include relevant courses and grades, relevant experience, expected year of graduation, and CV/resume in your email.
 
 
