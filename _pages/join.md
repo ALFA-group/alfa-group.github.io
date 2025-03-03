@@ -45,13 +45,7 @@ permalink: /join
 {% endfor %}
 </div> -->
 
-### Diversity Drives Innovation and Learning
-
-At the Anyscale Learning For All (ALFA) Group, we mean Anyscale Learning for ALL. ALFA is dedicated to cultivating an inclusive culture that supports, promotes, and empowers diverse voices in Computer Science & AI. Our focus is to improve and build machine learning, AI, and data analytics technology that works for everyone.
-
-Representation matters.
-
-We want our research to be representative of everyone who benefits and learns from it. We value people with different experiences, perspectives, and backgrounds - it’s the cornerstone of our approach to learning and research. We celebrate diversity along many axes: race, religion, ethnicity, age, sex, national origin, sexual orientation, gender identity, gender expression, genetic disposition, neurodiversity, disability, veteran status and any other aspect which makes you unique.
+ALFA respects and welcomes every applicant. We conduct ourselves as team members and representatives of ALFA with the same respect and welcoming attitude.
 
 <br>
 
