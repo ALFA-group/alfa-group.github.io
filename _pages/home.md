@@ -16,5 +16,5 @@ In all cases, conflicting objectives drive adversaries to clash (or more formall
 
 ### Sponsors
 ALFA's research would not be possible without the past and ongoing support of our industry sponsors
-<img src="{{ site.url }}{{ site.baseurl }}/images/home/alfa-sponsors2025.png" style="display: block; margin: auto; width: 100%;">
+<img src="{{ site.url }}{{ site.baseurl }}/images/home/Alfa-Sponsors2025.png" style="display: block; margin: auto; width: 100%;">
 <i>The views, opinions and positions expressed by ALFA Group and on this site are theirs alone, and do not necessarily reflect the views, opinions or positions of their sponsors.</i>
