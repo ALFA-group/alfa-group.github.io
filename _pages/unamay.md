@@ -1,9 +1,34 @@
 ---
 title: "ALFA Lab - Una-May"
-layout: textlay
+layout: gridlay
 sitemap: false
 permalink: /unamay
 ---
+
+{% assign member = site.data.people.alfa_staff | where: "name", "Una-May O'Reilly" | first %}
+
+<div class="col-sm-3">
+<img src="{{ site.url }}{{ site.baseurl }}/images/people/alfa_staff/{{member.photo}}" class="img-responsive" width="90%" style="float: left" />
+</div>
+<div class="col-sm-9" style="float:left;">
+
+# {{member.name}}
+<i>{{member.role}}</i>
+
+Anyscale Learning For All (ALFA) Group
+
+MIT Computer Science and Artificial Intelligence Lab (CSAIL)
+
+Email: [{{member.email}}](mailto:{{member.email}})
+
+Office: [{{member.office}}](https://whereis.mit.edu/?go=32)
+
+<a href="{{ member.scholar_link }}">
+  <img src="images/people/googlescholar.png" alt="Google Scholar" class="scholar-img" style="float:left; width:5%;">
+</a>
+</div>
+
+<div class="col-sm-12">
 
 ## Research Statement
 
@@ -28,4 +53,20 @@ In 2013 I updated my research group’s name to ALFA from Evolutionary Design an
 
 Among the many rewards of leading ALFA, my group serves my passion for mentoring students and postdocs from MIT. ALFA has been a humane academic research home to numerous UROPs, Masters students (in Computer Science, Technology and Policy, and System Design & Management), PhD students, and PostDocs. For MIT's Department of Electrical Engineering and Computer Science, I have led the Machine Learning track for PhD admissions, in addition to serving on the admissions committee multiple years.  I also enjoy academically advising EECS undergraduates and Ph.D. students.   
 
-Besides working for technical and academic communities, I also devote efforts to the CSAIL community. I have led the CSAIL Pretty Committee, Lobby Committee, and Logo Committee. I lead the Applied Machine Learning Community of Research and I led the committee organizing CSAIL's Celebration of its  20th and 60th anniversaries.  In the service of principal and senior research scientists in CSAIL, I have worked on defining the appointments' review process. I am currently working on recommendations to CSAIL that will improve the transparency and details of the appointments' responsibilities and career paths.  A detailed, full list of my service can be found in my Curriculum Vitae.  
+Besides working for technical and academic communities, I also devote efforts to the CSAIL community. I have led the CSAIL Pretty Committee, Lobby Committee, and Logo Committee. I lead the Applied Machine Learning Community of Research and I led the committee organizing CSAIL's Celebration of its  20th and 60th anniversaries.  In the service of principal and senior research scientists in CSAIL, I have worked on defining the appointments' review process. I am currently working on recommendations to CSAIL that will improve the transparency and details of the appointments' responsibilities and career paths.  A detailed, full list of my service can be found in my Curriculum Vitae.
+
+## Featured Talks
+
+</div>
+
+<div class="col-sm-12">
+<iframe src="https://www.youtube.com/embed/gY6NjiTUj5A?si=c_hGpUZL-qDbstor" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+<br>
+
+<iframe src="https://www.youtube.com/embed/lSem7fmej4U?si=lmaGrfAkV_g-Vntr" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+<br>
+
+Additional research talks, interviews, and keynote addresses can be found on my [YouTube](https://www.youtube.com/@Una-MayOReilly/videos) page.
+</div>

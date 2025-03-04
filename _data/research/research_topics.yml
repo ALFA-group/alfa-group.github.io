@@ -1,0 +1,89 @@
+- title: AI-Supported Discovery of Privilege Escalation and Remote Exploit Chains
+  start_year: 2024
+  photo: exploit-chains.png
+  photo_source: "[Unified Kill Chain](https://www.unifiedkillchain.com/)"
+  description: > 
+    By means of generative AI and AI planning, this cybersecurity project develops a method for discovering chains of known 
+    Privilege Escalation (PE) and Remote exploits in a cyber network.  Chains of these two types of exploits enable lateral 
+    movement within a network from one compromised host to another. They also enable a technique known as pivoting 
+    where an attacker circumvents network segmentation or internal firewalls to move deeper into a network. After gaining initial 
+    access to a host on the network, pivoting allows an attacker to access other host on the network that would otherwise be unavailable.
+  members: Erik Hemberg, Andrea Vignali, Christián Colón, Miguel Tulla
+  collaborators: Giancarlo Sperli, Simon Pietro Romano, Masataro Asai
+
+- title: Open-Ended Evolution with Large Populations via Parallel Connection Machines (Singular S1 Boards)
+  start_year: 2025
+  photo: open-ended.jpg
+  photo_source: "[Magic Studio](https://magicstudio.com/ai-art-generator/)"
+  description: > 
+    This research project explores methods for driving open-ended evolution (OEE) using a network of Singular S1 connection machines. By 
+    leveraging the computational power of these interconnected devices, the project seeks to simulate evolving populations of unprecedented 
+    size. The core hypothesis is that increased population sizes, combined with complex and dynamic environments, will drive the emergence 
+    of open-ended evolution. This approach allows for the exploration of evolutionary dynamics that more closely mimic the vast scale and 
+    complexity of biological systems. By utilizing the Singular S1 boards, the project aims to create a computational ecosystem where information 
+    can flow and evolve across the network, potentially leading to the continuous generation of novelty and increasing complexity over time.
+  members: Erik Hemberg, Steven Jorgensen
+  collaborators: Joe Bates
+
+- title: NL to Bash Commands
+  start_year: 2023
+  photo: placeholder.jpg
+  photo_source:
+  description: > 
+    This is a placeholder.
+  members: Finn Westenfelder, Erik Hemberg, Stephen Moskal
+  collaborators: 
+
+- title: LLM-Supported STEALTH
+  start_year: 2024
+  photo: placeholder.jpg
+  photo_source:
+  description: > 
+    This is a placeholder.
+  members: Joy Bhattacharya, Erik Hemberg
+  collaborators: 
+
+- title: Cyborg Agents
+  start_year: 2024
+  photo: placeholder.jpg
+  photo_source:
+  description: > 
+    This is a placeholder.
+  members: Eric Liu, Erik Hemberg
+  collaborators: 
+
+- title: BRON
+  start_year: 2021
+  photo: placeholder.jpg
+  photo_source:
+  description: > 
+    This is a placeholder.
+  members: Erik Hemberg
+  collaborators: 
+
+- title: LIPI-AE
+  start_year: 2020
+  photo: placeholder.jpg
+  photo_source:
+  description: > 
+    This is a placeholder.
+  members: Erik Hemberg, Steven Jorgensen
+  collaborators: Jamal Toutouh
+
+- title: Sam's Thesis
+  start_year: 2022
+  photo: placeholder.jpg
+  photo_source:
+  description: > 
+    This is a placeholder.
+  members: Sam Laney
+  collaborators: 
+
+- title: Shash's Work
+  start_year: 2018
+  photo: placeholder.jpg
+  photo_source:
+  description: > 
+    This is a placeholder.
+  members: 
+  collaborators: 

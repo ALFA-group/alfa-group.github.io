@@ -206,3 +206,8 @@ firstp {
 	display: inline-block;
 	border-bottom: 1px solid #000; /* Adjust color and thickness as needed */
   }
+
+iframe { 
+	width: 100%;
+	aspect-ratio: 16 / 9;
+  }
