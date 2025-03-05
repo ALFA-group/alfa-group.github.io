@@ -25,14 +25,18 @@
   members: Erik Hemberg, Steven Jorgensen
   collaborators: Joe Bates
 
-- title: NL to Bash Commands
+- title: "[LLM-Supported Natural Language to Bash Translation](https://github.com/westenfelder/NL2SH)"
   start_year: 2023
-  photo: placeholder.jpg
+  photo: nl-to-bash.png
   photo_source:
   description: > 
-    This is a placeholder.
-  members: Finn Westenfelder, Erik Hemberg, Stephen Moskal
-  collaborators: 
+    The Bash command line interface has complex syntax and requires extensive specialized knowledge. This research project explores the capabilities 
+    of Large Language Models (LLMs) for translating natural language to Bash commands (NL2SH). The goal of the project is to find reliable methods 
+    for improving NL2SH translation accuracy. Thus far, we developed new NL2SH datasets and models, as well as a novel benchmark to evaluate model 
+    performance. Current findings suggest that in-context learning, in-weight learning, constrained decoding, and parsing can significantly improve 
+    the performance of LLMs for NL2SH tasks.
+  members: Finn Westenfelder, Erik Hemberg, Miguel Tulla, Stephen Moskal
+  collaborators: Silviu Chiricescu, Charles Stark
 
 - title: LLM-Supported STEALTH
   start_year: 2024
