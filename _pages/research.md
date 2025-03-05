@@ -26,7 +26,9 @@ permalink: /research/
 
 #### {{project.title}}
 
+<p>
 {{project.description}}
+</p>
 
 **Team Members:** <i>{{project.members}}</i>
 

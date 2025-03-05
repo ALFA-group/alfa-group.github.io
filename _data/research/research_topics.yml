@@ -43,14 +43,25 @@
   members: Joy Bhattacharya, Erik Hemberg
   collaborators: 
 
-- title: Cyborg Agents
+- title: Leveraging Capabilities of LLMs for Autonomous Cybersecurity Agents
   start_year: 2024
   photo: placeholder.jpg
   photo_source:
   description: > 
-    This is a placeholder.
+    This research project investigates the use of large language models (LLMs) as intelligent controllers for red and blue cybersecurity agents in 
+    simulated environments. In particular, the goal is to assess the capabilities of LLMs in identifying vulnerabilities, selecting penetration testing 
+    tools, and executing automated cyber campaigns on behalf of red agents, while blue agents defend and maintain system integrity. The study is conducted 
+    using the CybORG platform, which simulates real-world cybersecurity scenarios and allows agents to make decisions based on network system observations 
+    at each step. 
+    <br>
+    <br>
+    The research is structured around three main objectives. The first is to explore the feasibility of using LLMs as full-fledged agent controllers, 
+    where the model takes as input current observations in the simulation then determines the next course of action. The second objective is to assess whether LLMs 
+    can generate code that replicates their decision-making behavior, and then compare the performance of this generated code with the directly controlled LLM agents. 
+    Finally, the third objective aims to evaluate the transferability of the agents and whether or not they can robustly adapt in adversarial cyber environments which entail 
+    new scenarios, different network infrastructures, and unseen adversaries.
   members: Eric Liu, Erik Hemberg
-  collaborators: 
+  collaborators: Ally Sansone
 
 - title: BRON
   start_year: 2021
