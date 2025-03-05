@@ -63,21 +63,38 @@
   members: Eric Liu, Erik Hemberg
   collaborators: Ally Sansone
 
-- title: BRON
-  start_year: 2021
-  photo: placeholder.jpg
+- title: "[BRON](http://bron.alfa.csail.mit.edu/info.html)"
+  start_year: 2019
+  photo: bron.png
   photo_source:
   description: > 
-    This is a placeholder.
+    Many public sources of cyber threat and vulnerability information
+    exist to help defend cyber systems. BRON ~(the bridge in Swedish)
+    is a property graph that contains threat data from MITRE ATT&CK,
+    CAPEC, CWE , CVE, MITRE Engage, MITRE D3FEND, MITRE CAR,
+    exploitDB and MITRE ATLAS data sources are linked together. The
+    data types are linked with bidirectional edges. BRON preserves
+    all entries and relations of the sources, while enabling
+    bi-directional, relational path tracing within an aggregate data
+    graph.
   members: Erik Hemberg
   collaborators: 
 
-- title: LIPI-AE
-  start_year: 2020
-  photo: placeholder.jpg
+- title: Lipizzaner
+  start_year: 2018
+  photo: lipi.png
   photo_source:
   description: > 
-    This is a placeholder.
+    Artificial Neural Network training can be non-trivial. Lipizzaner
+    is a framework to train artificial neural networks with
+    gradient-based optimizers in a coevolutionary setup. It hence
+    combines the advantages of both methods to achieve fast and
+    stable results, it also uses a spatial topology to reduce the
+    computational cost. Lipizzaner-GAN trains a population of
+    generative artifical networks with competetive coevolution and
+    stocastic gradient descent. Lipizzaner-AE trains a population of
+    Autoencoders with cooperative coevolution and stochastic gradient
+    descent.
   members: Erik Hemberg, Steven Jorgensen
   collaborators: Jamal Toutouh
 
@@ -91,7 +108,7 @@
   collaborators: 
 
 - title: Shash's Work
-  start_year: 2018
+  start_year: 2017
   photo: placeholder.jpg
   photo_source:
   description: > 
