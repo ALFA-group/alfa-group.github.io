@@ -1,0 +1,140 @@
+%\documentclass[11pt]{article}
+\documentclass[12pt,bibliography=numbered]{article}
+\usepackage{pdfpages}
+\usepackage{wrapfig}
+\usepackage{longtable}
+\usepackage{xcolor}
+\usepackage{colortbl}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{paralist}
+\usepackage[top=0.5in, bottom=1.0in, left=0.75in, right=0.8in]{geometry}
+\usepackage{graphicx}
+\usepackage[sort&compress,numbers]{natbib}
+\usepackage{url}
+\usepackage{color}
+\usepackage{xspace}
+\usepackage{caption}
+\usepackage{subcaption}
+\usepackage{adjustbox}
+\usepackage{enumitem}
+\usepackage{comment}
+\usepackage{hyperref}[colorlinks=true,linkcolor=blue,citecolor=red]
+
+\usepackage{endnotes}
+\renewcommand{\footnote}{\endnote}
+
+\renewcommand{\enotesize}{\footnotesize}
+\renewcommand\enoteformat{%
+  \raggedright
+  \leftskip=1.0em
+  \makebox[0pt][r]{\theenmark. \rule{0pt}{\dimexpr\ht\strutbox}}%
+}
+%\usepackage[hang, flushmargin, ragged]{footmisc}
+
+\usepackage{fancyvrb}
+
+%\usepackage[utf8x]{inputenc} 
+%
+%\DeclareUnicodeCharacter
+
+\newcommand{\TODO}[1]{\textcolor{red}{\textbf{TODO} #1}}
+\newcommand{\CHECK}[1]{\textbf{\textcolor{red}{CHECK: #1}}}
+\newcommand{\DRAFT}[1]{\textbf{\textcolor{blue}{DRAFT:}}\textcolor{blue}{ #1}}
+\newcommand{\chatSMtools}{\textbf{LLM-APT-API}\xspace}
+\newcommand{\system}{\textbf{PbC}\xspace}
+\newcommand{\systemLong}{\textbf{Persona-based Conversations}}
+
+\renewcommand{\familydefault}{\sfdefault}
+
+\begin{document}
+%\title{Una-May O'Reilly\\Artificial Adversarial Intelligence}
+%\author{  }
+%
+%\date{}
+%
+%\maketitle
+
+%\section*{My Research}
+\label{Evolutionary inspiration and algorithms}
+\vspace{-0.5in}
+\noindent 
+Since the beginning of my interest in Artificial Intelligence, I have focused on learning and adaptation.
+% because they are arguably integral to intelligence. 
+My central inspiration is Nature's process of evolution because it generates compelling examples of intelligent organisms and behavior.  
+This is why I work with evolutionary algorithms.
+% and investigate their insights into generating intelligence and their application opportunities.  
+An evolutionary algorithm adapts a population of solutions by means of computationally-modeled, performance-based selection, replication, and variation.  
+The population supports multiple solution explorations, and algorithmic operations that combine parts of different solutions. 
+Neither evolution or this heuristic-based algorithm are efficient, but an open question, and one that I've spent my career 
+chasing, is how to extend and apply evolutionary algorithms that are inspired by this elegant and powerful process, while contributing insights into how evolution generates intelligence.
+
+\label{STEALTH}
+Much of my current research stems from a 
+request ten years ago after I lectured about competitive coevolutionary behavior. 
+To explain, given  two continually adversarial, competing sides, competitive coevolution is an escalating or oscillating process that occurs when members of each side are selected and adapted, based upon their competitive performances.
+Rather surprisingly, the request was to investigate competitive coevolutionary behavior occuring in the domain of taxation! In the resulting project, named Stealth, with my team I developed a competitive coevolutionary algorithm --  two competitive populations with members that compete one versus one with each other, undergo selection based on competition performance, and adapt by operations on  their strategies. This algorithm allowed me to model the arms race between auditing strategies and tax avoidance strategies trying  to be undetectable by auditing. If you'd like to learn more, check out \url{stealth.csail.mit.edu}.
+
+\label{Artificial Adversarial Intelligence}
+The Stealth project 
+directed my attention to adversarial learning, i.e.  behavioral adaptation under the pressure of adversarial competition.   
+Adversarial learning is an under-explored facet of intelligence, despite being so common and important to understand.  For example, consider biological arms races of predators and prey,  viruses and their hosts, even squirrels versus bird feeder owners! And, beyond taxation, human competitions in cyber security. This is when I coined the moniker ``\textbf{Artificial Adversarial Intelligence}".  Adversarial Intelligence is the thinking underlying adversarial behavior. It recruits planning, learning, technical skills, expert knowledge and other faces of intelligence.\footnote{Artificial Adversarial Intelligence is different from Adversarial Machine Learning (AML) because it is broader than the targeting of vulnerabilities of machine learning and its models. Arguably it  includes AML and also connect with topics such as game theory, adversarial planning, and reinforcement learning with games. }   ALFA's goal became to computationally replicate Adversarial Intelligence  in pursuit of  Artificial Adversarial Intelligence.  
+
+\label{Lipizzaner}
+Enroute to Artificial Adversarial Intelligence, we  develop data-driven, gradient-based Machine Learning approaches that leverage adversarial learning. Generative Adversarial Networks (GANs) draw our attention because of their adversarial learning.  They exploit competition during learning by training a discriminator to distinguish real and fake samples from a latent distribution, while training a generator to learn sample generation that deceives the discriminator. They are useful, but are difficult to train due to convergence pathologies such as mode and discriminator collapse. One way that evolution avoids these pathologies is through diversity in a population and the spatial distribution of populations. Our Lipizzaner framework sets up small, spatially-organized, overlapping neighborhoods of local learning that interact with each other to signal what they have learned. It places a generator and discriminator at each cell of a spatial structure. It runs  gradient-based GAN training (discriminator versus generator competitions) within neighborhoods, then executes a coevolutionary algorithm at every neighborhood, where a population of generators coevolves  with a population of discriminators. Because  neighborhoods are overlapping in the spatial structure, evolved and gradient-trained improvements propagate through the space, while pathologies, though they occur, do not persist. This use of spatial signalling yields  improved robustness and performance. Lipizzaner explicitly taps into other powers of spatial organization. It can support  training data being split up and partitioned in over cells. It supports different  loss functions across the spatial structure to tap into the diversity maintained by a spatial organization. Both features improve training robustness and solution performance.
+\label{shorter Lipizzaner}
+% It applies spatially distributed co-evolution to provide resilient and robust Generative Adversarial Network training. We have explored the benefits of training multiple generators and discriminators in a distributed and information sharing setting. We explore how multiplicity and diversity can benefit data usage, design choices, and performance. 
+If you'd like to learn more, check out \url{https://jamaltoutouh.github.io/lipizzaner-web/}.  Spoiler alert, we are now working to examine the impact of introducing Large Language Model competence into Stealth's algorithms.
+
+\label{Rivals}
+We also ground our efforts in modeling the adversarial behavior arising in cybersecurity.  
+Our current cybersecurity projects address sponsors’ interests in anticipating possible moves and counter-moves to inform resilient defenses in cyber threat scenarios.  
+Our first project resulted in the RIVALS framework. RIVALS helped us model different attack-defense scenarios related to cyber network threats. For example, we modeled how Distributed Denial of Service Attacks could be anticipated to disrupt a mission running on an advanced Peer to Peer Network, given the network's resiliency configuration and the threat actor's ability to temporally target links with different strength, for different durations. We also, for example, modeled how the co-adaptation of an intelligent reconnaissance strategy competing against an intelligent deceptive defense shield changes the expected attack and defense success rates.  
+\label{After Rivals}
+Since RIVALS, we have moved to learning attack and defense strategies while integrating expert knowledge, with an LLM-supported agent,  and in network simulation environments such as CYBORG.  Because cyber threat and defense behavior rely strongly on human expertise and reasoning, we also investigate AI Planning and Generative AI. If you'd like to learn more, check out recent publications and arXiv reports.
+
+
+%\footnote{RPA Publications: 1.30, 2.21, 3.132, 3.127, 3.138, 4.84, 4.77,4.76, 4.64, 4.58,  4.56, 4.53, 4.51.\\Invited Lectures in RPA:  6.70, 6.71, 6.64, 6.63, 6.58, 6.53, 6.49, 6.42, 6.43} 
+
+
+Cyber adversaries reason with expert and common knowledge. To support artificial adversarial reasoning, I support Erik Hemberg on a software project named BRON. BRON  aggregates the text entries of open access databases which enumerate threats (their tactics and techniques and exploites), vulnerabilities (software weaknesses and exposures) and defenses. 
+ 
+
+
+
+ALFA's results also endorse and encourage further translation of the evolutionary process to achieve intelligence different from that of adversaries, perhaps more positively, e.g. around cooperation.  
+%Lipi publications in my FPR are XX.
+
+%A more positive form of behavior is that of cooperation. My work with Stealth, RIVALS, and Lipizzaner begs asking how the evolution of cooperation can be modeled and how cooperation yields insights into intelligent behavior.
+
+%Finally, veering away from evolutionary algorithms but still focusing on security, I also consider how intelligent adversaries can exploit code insecurities such as bugs or design weaknesses. Integral to this capability is how they understand code.  
+%Working with my PhD student Shashank Srikant and collaborators from Brain and Cognitive Science, I used fMRI contrast experiments on participants reading text and  code samples (controlled for various program properties) to learn that, while the language regions in our brains are engaged when comprehending code, they are not significantly more engaged than when reading text. 
+%However, the brain regions involved in logic processing are significantly strongly engaged when comprehending code in contrast to when reading text.
+%(Ivanova, Srikant, et al., eLife 2020).
+%This study characterized how information is represented in the logic regions of our brains, a previously unaddressed question.  It begs asking, ``what about code models?''  Our further work has found that the logic regions that represent code in the brain can be aligned with representations learned by code models.
+%(Srikant, Lipkin et al, NeurIPS 2022).
+%In the process, we also invented a method to modify and generate language stimuli which can produce desired responses in different brain regions.
+% (Srikant et al., 2023, submitted to ACL 2023).
+%In parallel, we have studied and improved our understanding of how code models ``understand'' programs. 
+%As well, it appears that code models' decision making relies on and is very sensitive to syntactic information present in programs.
+% (Srikant et al., ICLR 2021).
+%Notably, human-understanding of code is generally not as sensitve to such information.\footnote{RPA Publications: 2.22, 3.136,  3.137, 3.138,  4.80, 5.3, 4.69}
+% (Jia, Srikant et al., SANER 2023).
+%We addressed this gap in the robustness and accuracy of code models by proposing a contrastive learning-based model training framework
+%We have also investigated how traditional program analysis methods ``understand'' concurrent programs, have shown how sensitive current state-of-the-art algorithms are, and have developed a method which automates assembling a rich dataset of concurrent bugs (Wang, Srikant, et al., submitted to SOAP 2023 at PLDI).
+%This will, for the first time, enable a deep learning-based method to learn the various heuristics employed by current state-of-the-art analysis techniques.
+%There is a plethora of open questions around code modeling and code understanding. In the near term, I intend to pursue cognitive experiments 
+%,the detection of race conditions, 
+%and enhancing code models with more ``features'' to support better code understanding.
+ 
+%Artificial Adversarial Intelligence is different from Adversarial Machine Learning (AML)\footnote{RPA Publications: 3.128, 3.125, 3.123, 4.85, 4.78, 4.69, 4.65, 4.61, 4.60, 4.57, 6.56,  6.50} because it is broader than the targeting of vulnerabilities of machine learning and its models. Arguably it would include AML and also connect with topics such as game theory, adversarial planning, and reinforcement learning with games. As I examine, admire, and replicate additional kinds of adversarial behavior (e.g.,  disinformation in advertising and propaganda), I have become aware that my deep questions, beyond modeling evolutionary intelligence, examine security. Security is identified in Maslow's hierarchy as a fundamental human need. I believe it is the need for security from adversarial circumstances that unifies \textit{Artificial Adversarial Intelligence} across cyber space, regulatory space, and other domains.
+
+
+\newpage
+\theendnotes
+
+%\bibliographystyle{plainnat}
+
+\bibliography{bibliography}
+
+\end{document}
