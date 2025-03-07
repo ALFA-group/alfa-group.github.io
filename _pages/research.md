@@ -12,6 +12,7 @@ permalink: /research/
 
 {% assign grouped_projects_by_year = site.data.research.research_topics | sort: "start_year" | reverse %}
 {% for project in grouped_projects_by_year %}
+{% if project.members %}
 <!-- <div class="row" style="border: 1px solid #000; border-radius: 2% / 6%"> -->
 <div class="row">
 
@@ -39,7 +40,9 @@ permalink: /research/
 </div>
 </div>
 <br>
+{% endif %}
 {% endfor %}
+
 </div>
 
 

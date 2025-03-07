@@ -38,19 +38,27 @@
   members: Finn Westenfelder, Erik Hemberg, Miguel Tulla, Stephen Moskal
   collaborators: Silviu Chiricescu
 
-- title: LLM-Supported STEALTH
+- title: Detecting and Auditing Tax Avoidance Through Coevolution with LLM Agents
   start_year: 2024
-  photo: placeholder.jpg
+  photo: llm-stealth.png
   photo_source:
   description: > 
-    This is a placeholder.
+    This research explores how AI can help detect emerging tax avoidance strategies using a coevolutionary 
+    framework. Tax avoidance schemes exploit legal loopholes to minimize tax liabilities, making it difficult 
+    for auditors to keep up as strategies evolve. Two Large Language Model (LLM)-based agents are used: a 
+    transaction agent that generates tax-compliant transactions designed to minimize liabilities and an audit 
+    agent that learns to spot suspicious patterns. These agents evolve together, mimicking the real-world 
+    back-and-forth between tax planners and auditors. This setup not only uncovers new tax strategies but 
+    also helps improve audit detection methods over time. By combining natural language processing 
+    and evolutionary techniques, this work provides a new way to study how tax avoidance schemes emerge and 
+    how audits can become more effective at detecting them
   members: Joy Bhattacharya, Erik Hemberg
   collaborators: 
 
 - title: Leveraging Capabilities of LLMs for Autonomous Cybersecurity Agents
   start_year: 2024
-  photo: placeholder.jpg
-  photo_source:
+  photo: cyborg.png
+  photo_source: "[TTCP Cage Challenge](https://github.com/cage-challenge/cage-challenge-4)"
   description: > 
     This research project investigates the use of large language models (LLMs) as intelligent controllers for red and blue cybersecurity agents in 
     simulated environments. In particular, the goal is to assess the capabilities of LLMs in identifying vulnerabilities, selecting penetration testing 
@@ -106,13 +114,18 @@
   members: Erik Hemberg, Steven Jorgensen
   collaborators: Jamal Toutouh
 
-- title: Sam's Thesis
+- title: Large Language Models for Automatic Pen-Testing
   start_year: 2022
-  photo: placeholder.jpg
+  photo: auto-pen-test.png
   photo_source:
   description: > 
-    This is a placeholder.
-  members: Sam Laney
+    This project explores using Large Language Models (LLMs) to automate penetration tests and Cyber 
+    Capture the Flag (CTF) challenges, bridging the gap between static tools and human intuition in 
+    cybersecurity. Key questions include: How can LLMs be fine-tuned for complex tasks like forensic 
+    analysis? How can their robustness and adaptability be enhanced? Will ensemble approaches improve 
+    performance across various CTF challenges? And what strategies can mitigate LLM limitations in complex 
+    cybersecurity scenarios?
+  members: Sam Laney, Erik Hemberg, Stephen Moskal
   collaborators: 
 
 - title: Shash's Work
