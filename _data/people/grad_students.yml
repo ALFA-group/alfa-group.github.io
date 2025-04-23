@@ -39,11 +39,12 @@
   info: 
     - Cyber Security Policy
 
-- name: Andrea Vignali
-  photo: andreavignali.jpg
-  role: Visiting PhD Student, University of Naples Federico II
+- name: Ambroise Borbely
+  photo: ambroiseborbely.png
+  role: Visiting PhD Student, EPFL
   email: 
-  scholar_link: https://scholar.google.com/citations?user=YqrkkCoAAAAJ
+  scholar_link:
   info: 
-    - Cyber Exploit Chains with AI Planning
+    - Highly Parallel Evolutionary Algorithms
+    - Open-Ended Evolution
 
