@@ -28,10 +28,10 @@ Research scientist in the ALFA group at MIT CSAIL. I have PhD in Computer Scienc
 * Created [BRON](https://github.com/ALFA-group/BRON), a knowledge graph linking cyber attacker behavior, vulnerabilities, exploits and mitigations for efficient querying, reasoning and knowledge discovery. It is also used to fine tune Large Language Models on Cybersecurity tasks
 * Improved the robustness and reduced computational complexity of Generative Adversarial Network (GAN) and Autoencoder (AE) training with spatial coevolutionary training
 * Mentored graduate (35) and undergraduate students (49). 
-* Facilitates bi-annual executive training for 30 members of Bank of America's CISO leadership team on the topic of AI Applied to Cybersecurity
+* Facilitate bi-annual executive training for 30 members of Bank of America's CISO leadership team on the topic of AI Applied to Cybersecurity
 * Used grammar based Genetic Programming with novelty search to improve program synthesis performance on benchmarks compared to the existing State-of-the-Art by incorporating more domain knowledge and exploration
 * Developed and delivered a Blended Online course in Evolutionary for Shantou University in China.
-* Lead innovative research successfully translated AI in tax administration with the Simulating Tax Evasion and Law with Heuristics with MITRE Corp, [Computer Scientists Wield Artificial Intelligence to Battle Tax Evasion in the New York Times, October 9, 2015.](http://www.nytimes.com/2015/10/10/business/computer-scientists-wield-artificial-intelligence-to-battle-tax-evasion.html?_r=1)
+* Led innovative research for AI and tax administration in the Simulating Tax Evasion and Law with Heuristics project with MITRE Corp, [Computer Scientists Wield Artificial Intelligence to Battle Tax Evasion in the New York Times, October 9, 2015.](http://www.nytimes.com/2015/10/10/business/computer-scientists-wield-artificial-intelligence-to-battle-tax-evasion.html?_r=1)
 </div>
 </div>
 
