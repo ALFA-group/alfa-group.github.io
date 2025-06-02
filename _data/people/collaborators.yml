@@ -13,3 +13,44 @@
   email: 
   scholar_link: https://scholar.google.com/citations?hl=en&user=RrOh0lIAAAAJ
   info:
+
+- name: Andrea Vignali
+  photo: andreavignali.jpg
+  role: Research Collaborator
+  location: University of Naples Federico II, Naples Italy
+  email: 
+  scholar_link: https://scholar.google.com/citations?user=YqrkkCoAAAAJ&hl=en
+  info:
+
+- name: Giancarlo Sperlì
+  photo: 
+  role: Research Collaborator
+  location: University of Naples Federico II, Naples Italy
+  email: giancarlo.sperli@unina.it
+  scholar_link: https://scholar.google.com/citations?user=HInMnoQAAAAJ&hl=en
+  info:
+
+- name: Simon Romano
+  photo: 
+  role: Research Collaborator
+  location: University of Naples Federico II, Naples Italy
+  email: spromano@unina.it
+  scholar_link: https://scholar.google.com/citations?user=hZl5anoAAAAJ&hl=en
+  info:
+
+- name: Joy Bhattacharya
+  photo: joybhattacharya.png
+  role: Research Collaborator
+  location:
+  email: 
+  scholar_link:
+  info:
+
+
+- name: Finn Westenfelder
+  photo: finnwestenfelder.jpg
+  role: Research Collaborator
+  location:
+  email: 
+  scholar_link:
+  info:
