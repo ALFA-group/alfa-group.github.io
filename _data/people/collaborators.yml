@@ -38,15 +38,6 @@
   scholar_link: https://scholar.google.com/citations?user=hZl5anoAAAAJ&hl=en
   info:
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-- name: Joseph Bates
-  photo: 
-  role: Research Collaborator
-  location: Singular Computing LLC
-=======
-=======
->>>>>>> 61809aa9b5425ff00e0b99817b135eec1e6f0c2a
 - name: Dr. Yair Allouche
   photo: 
   role: Research Collaborator
@@ -55,27 +46,22 @@
   scholar_link: https://scholar.google.com/citations?user=Pn3dWEYAAAAJ&hl=en
   info:
 
-
 - name: Matan Levi
   photo: 
   role: Research Collaborator
   location: IBM Research
-<<<<<<< HEAD
->>>>>>> 61809aa9b5425ff00e0b99817b135eec1e6f0c2a
-=======
->>>>>>> 61809aa9b5425ff00e0b99817b135eec1e6f0c2a
   email: 
   scholar_link: 
   info:
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
+- name: Joseph Bates
+  photo: 
+  role: Research Collaborator
+  location: Singular Computing LLC
+  email: 
+  scholar_link:
+  info:
 
->>>>>>> 61809aa9b5425ff00e0b99817b135eec1e6f0c2a
-=======
-
->>>>>>> 61809aa9b5425ff00e0b99817b135eec1e6f0c2a
 - name: Joy Bhattacharya
   photo: joybhattacharya.png
   role: Research Collaborator
