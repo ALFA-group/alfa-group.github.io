@@ -39,11 +39,14 @@
   info:
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 - name: Joseph Bates
   photo: 
   role: Research Collaborator
   location: Singular Computing LLC
 =======
+=======
+>>>>>>> 61809aa9b5425ff00e0b99817b135eec1e6f0c2a
 - name: Dr. Yair Allouche
   photo: 
   role: Research Collaborator
@@ -57,12 +60,19 @@
   photo: 
   role: Research Collaborator
   location: IBM Research
+<<<<<<< HEAD
+>>>>>>> 61809aa9b5425ff00e0b99817b135eec1e6f0c2a
+=======
 >>>>>>> 61809aa9b5425ff00e0b99817b135eec1e6f0c2a
   email: 
   scholar_link: 
   info:
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+
+>>>>>>> 61809aa9b5425ff00e0b99817b135eec1e6f0c2a
 =======
 
 >>>>>>> 61809aa9b5425ff00e0b99817b135eec1e6f0c2a
