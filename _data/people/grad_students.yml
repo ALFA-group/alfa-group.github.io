@@ -15,13 +15,27 @@
   info: 
     - Cyber Agents
 
-
-- name: Ambroise Borbely
-  photo: ambroiseborbely.png
-  role: Visiting Masters Student, EPFL
+- name: Jenny F.
+  photo: 
+  role: M. Eng Student, started Sept 2025
   email: 
   scholar_link:
   info: 
-    - Highly Parallel Evolutionary Algorithms
-    - Open-Ended Evolution
+    - 
+
+- name: Caleb Song
+  photo: calebsong.jpg
+  role: TTP Student, started Sept 2025
+  email: 
+  scholar_link:
+  info: 
+    - LLMs for Cyber Operations
+
+- name: Justin Liaw
+  photo: justinliaw.png
+  role: TTP Student, started Sept 2025
+  email: 
+  scholar_link:
+  info: 
+    - Cyber Agents and Cybersecurity
 
