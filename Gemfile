@@ -3,3 +3,4 @@ gemspec
 
 gem "webrick", "~> 1.7"
 gem 'jekyll-scholar', group: :jekyll_plugins
+gem 'json', '< 2.7.0'
