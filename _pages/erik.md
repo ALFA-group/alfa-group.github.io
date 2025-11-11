@@ -5,7 +5,7 @@ excerpt: "Erik Hemberg - ALFA Lab"
 permalink: /erik
 ---
 
-# Erik Hemberg
+# Erik Hemberg, PhD
 
 <div class="row">
 <div class="col-sm-12">
