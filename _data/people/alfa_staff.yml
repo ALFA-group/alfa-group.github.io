@@ -1,6 +1,6 @@
 - name: Una-May O'Reilly
   photo: unamay.png
-  role: Founder, Principal Investigator
+  role: Co-leader, Founder, Principal Investigator
   email: unamay@csail.mit.edu
   office: 32-D534 Stata Center
   scholar_link: https://scholar.google.com/citations?hl=en&user=TgQM-B0AAAAJ
@@ -12,7 +12,7 @@
 
 - name: Erik Hemberg
   photo: erikhemberg.jpg
-  role: Research Scientist
+  role: Co-leader, Research Scientist
   email: hembergerik@csail.mit.edu
   scholar_link: https://scholar.google.com/citations?hl=en&user=0FM8tB4AAAAJ
   personal_page: /erik
